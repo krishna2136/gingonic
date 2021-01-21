@@ -2,7 +2,7 @@ FROM golang:1.5
 
 ADD . /go/src/github.com/IBM-Bluemix/go-hello-world
 
-# Build the outyet command inside the container.
+# Build the outyet command inside the container
 # (You may fetch or manage dependencies here,
 # either manually or with a tool like "godep".)
 RUN cd /go/src/github.com/IBM-Bluemix/go-hello-world;make
